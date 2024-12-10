@@ -89,7 +89,7 @@ class Aplication: #criação de uma classe que no momento não há informação
         if self.entradasegundos.get() or self.entradaquantidade.get():
             self.resultado["command"] = self.Calculadora
         else:
-            self.label_resultado_segundos["text"]= "Preencha corretamente"
+            self.label_resultado_segundos["text"]= "Dados incorretos"
 
 
 janela = Tk()
